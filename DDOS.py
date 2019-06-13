@@ -42,7 +42,7 @@ def send_thread():
             except Exception,ex:
                 print "Send Exception:%s\n"%ex
                 socks.remove(s)
-                s.close()  
+                s.close()
         time.sleep(1)
 #end def
 
